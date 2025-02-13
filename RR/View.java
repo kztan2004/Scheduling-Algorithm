@@ -61,7 +61,7 @@ public class View extends JFrame{
         JButton addButton = new JButton("Add Process");
         addButton.setBackground(SECONDARY);
         
-        inputTableModel = new DefaultTableModel(new String[]{"Process Name", "Arrival Time", "Burst Time", "Priority"}, 0);
+        inputTableModel = new DefaultTableModel(new String[]{"Process Name", "Burst Time","Arrival Time", "Priority"}, 0);
         JTable inputTable = new JTable(inputTableModel);
         JScrollPane table = new JScrollPane(inputTable);
 
